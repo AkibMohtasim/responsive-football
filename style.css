@@ -262,6 +262,52 @@ footer Ends
 responsive section starts
 --------------------------*/
 @media only screen and (max-width: 480px) {
+  /* first section */
+  .copa-america{
+    background-color: #2D25A0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .main-heading{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    top: 0;
+    left: 15px;
+    padding: 10px;
+  }
+  .copa-america .main-heading h2{
+    font-size: 32px;
+    line-height: 50px;
+    margin: 0;
+  }
+  
+  /* ----image section--- */
+  .copa-america .banner-image{
+    position: relative;
+    width: 100%;
+    top: 100px;
+    right: 0;
+    left: 20px;
+  }
+  .copa-america .banner-image img{
+    width: 80%;
+    transition: all 0.5s;
+  }
+  .copa-america:hover .banner-image img{
+    transform: translate(10px);
+    opacity: 0.8;
+  }
+
+
+
   p{
     font-size: 16px;
   }
