@@ -261,7 +261,7 @@ footer Ends
 /*------------------------
 responsive section starts
 --------------------------*/
-@media only screen and (max-width: 360px) {
+@media only screen and (min-width: 360px) and (max-width: 480px) {
   .players{
     position: relative;
     margin-top: 70px;
